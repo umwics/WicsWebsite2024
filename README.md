@@ -7,11 +7,7 @@ git clone https://github.com/umwics/WicsWebsite2024.git
 ```
 
 ```
-cd WicsWebsite2024/
-```
-
-```
-cd wicswebsite2024/
+cd WicsWebsite2024/wicswebsite2024/
 ```
 
 ```
