@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        .container {
-            text-align: center;
-            max-width: 900px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-        }
-
-        h1 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 1.2em;
-        }
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="./about-us.css" />
+    <link rel="stylesheet" href="../navbar/navbar.css" />
+    <link rel="stylesheet" href="../footer/footer.css" />
+  </head>
+  <body>
     <div class="container">
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Members</a>
+        <a href="#">Events</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <div class="text_container">
         <h1>About Us</h1>
-        <p>WICS is a student group supporting women and gender minorities in computer science. Our aim is to make computer science less intimidating and create a safe space for women to connect. A few events we host are workshops and panels on topics like website development, co-op program tips, and achieving success. This past year, our outreach team collaborated with CanU to host workshops dedicated for middle school and high school students. In the past, we have also collaborated with big companies like Bold, IQmetrix, Ubisoft, and Amazon to build a stronger community for gender minorities.</p>
+        <p>
+          WICS is a student group supporting women and gender minorities in
+          computer science. Our aim is to make computer science less
+          intimidating and create a safe space for women to connect. A few
+          events we host are workshops and panels on topics like website
+          development, co-op program tips, and achieving success. This past
+          year, our outreach team collaborated with CanU to host workshops
+          dedicated for middle school and high school students. In the past, we
+          have also collaborated with big companies like Bold, IQmetrix,
+          Ubisoft, and Amazon to build a stronger community for gender
+          minorities.
+        </p>
+      </div>
+      <footer class="footer">
+        <div class="footer_row">
+          <div class="logo">
+            <p class="link">@ 2024 One Agency. All rights reserved.</p>
+          </div>
+          <div class="footer_links">
+            <a href="#home" class="link"> Home </a>
+            <a href="#about" class="link"> About us </a>
+            <a href="#members" class="link"> Members </a>
+            <a href="#events" class="link"> Events </a>
+            <a href="#contact" class="link"> Contact </a>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
