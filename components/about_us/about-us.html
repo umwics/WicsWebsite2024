@@ -48,4 +48,17 @@
       </footer>
     </div>
   </body>
+  <script>
+    // JavaScript to handle the active class
+    const navbarLinks = document.querySelectorAll(".navbar a");
+
+    navbarLinks.forEach((link) => {
+      link.addEventListener("click", function () {
+        navbarLinks.forEach((innerLink) =>
+          innerLink.classList.remove("active")
+        );
+        this.classList.add("active");
+      });
+    });
+  </script>
 </html>
